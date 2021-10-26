@@ -12,10 +12,14 @@
     <li>
       <router-link to="/modal">modal</router-link>
     </li>
+    <li>
+      <router-link to="/button">button</router-link>
+    </li>
   </ul>
   <router-view/>
 
   <global-modal/>
+
 
 </template>
 
@@ -24,7 +28,7 @@
   export default {
     name:"APP",
     components:{
-      globalModal
+      globalModal,
     }
   }
 </script>
