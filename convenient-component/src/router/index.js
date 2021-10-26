@@ -3,7 +3,7 @@ import MarkDown from '../views/MarkDown'
 import Modal from "../views/Modal"
 import Toast from "../views/Toast"
 import ToggleSwitch from "../views/ToggleSwitch";
-
+import Button from "../views/Button";
 const routes = [
   {
     path:"/markdown",
@@ -24,6 +24,11 @@ const routes = [
     path: "/toggle",
     component: ToggleSwitch,
     name:"toggle"
+  },
+  {
+    path: "/button",
+    component: Button,
+    name:"button"
   }
 ]
 
