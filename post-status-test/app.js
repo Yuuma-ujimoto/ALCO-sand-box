@@ -1,6 +1,13 @@
 const express = require("express")
 const app = express()
 
+const cors = require("cors")
+app.use(cors({
+    origin: 'http://localhost:8080',
+    credentials: true,
+    optionsSuccessStatus: 200
+}))
+
 app.use(express.urlencoded({extended: true, limit: "50mb"}));
 
 app.get("/", (req, res) => {
@@ -20,5 +27,6 @@ app.post("/post", (req, res) => {
     // }
 
 })
+
 
 app.listen(3000)

@@ -38,3 +38,17 @@ for (let F in object){
     console.log(object[F])
 }
 
+
+const x ={AccountName: "Yuuma",
+    BirthdateDate: 6,
+    BirthdateMonth: "3",
+    BirthdateYear: 2001,
+    ConfirmPassword: "a",
+    DisplayName: "Yuuma",
+    MailAddress: "test@example.com",
+    Password: "a",}
+
+for (let G in x){
+    console.log(G)
+    console.log(x[G])
+}
