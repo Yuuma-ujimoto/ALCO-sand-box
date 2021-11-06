@@ -24,9 +24,10 @@ app.post("/post", (req, res) => {
     //     date1: '2021-10-21',
     //     time1: '17:39',
     //     range1: '50'
+    //    test1: [ 'a', 'b' ]
     // }
 
 })
 
 
-app.listen(3000)
+app.listen(2999)
