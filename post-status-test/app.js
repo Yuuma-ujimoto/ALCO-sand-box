@@ -29,5 +29,10 @@ app.post("/post", (req, res) => {
 
 })
 
+app.get("/get",(req, res) => {
+    console.log(req.query)
+    res.send("get")
+})
+
 
 app.listen(2999)
